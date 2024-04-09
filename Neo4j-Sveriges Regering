@@ -1,0 +1,679 @@
+-----------------Create Ministers node-----------------------
+
+CREATE (Jakob:Ministers{name:'Jakob' ,Birthday:1969, Titel:'Socialminister', motto :'Jag vill göra livet lite lättare att leva för människor genom att skapa bra förutsättningar för hälsa och gemenskap.',partyAffiliation:'Kristdemokraterna'})
+CREATE (Acko:Ministers {
+  name: 'Acko Ankarberg Johansson',
+  title: 'Sjukvårdsminister',
+  birthyear: 1964,
+  motto: '"Sverige ska erbjuda en god vård i tid och en jämlik vård i hela landet. Vägen dit är en utbyggd primärvård, fler vårdplatser och kortare köer till specialistvården. Vi vill också införa en nationell vårdförmedling för att öka tillgången till vård och utreda möjligheterna för hur vi helt eller delvis inför ett statligt huvudmannaskap för sjukvården för att säkra tillgång och kvalitet."',
+  partyAffiliation: 'Kristdemokraterna'
+})
+
+// Camilla Waltersson Grönvall
+CREATE (Camilla:Ministers {
+  name: 'Camilla Waltersson Grönvall',
+  title: 'Socialtjänstminister',
+  birthyear: 1977,
+  motto: '"En stark socialtjänst är ett av våra viktigaste verktyg för att förebygga brott. Vi vill reformera socialtjänstlagen så att socialtjänsten stärks i sitt mandat att till exempel besluta om fler obligatoriska insatser så att sociala problem förebyggs tidigt. Personer med funktionsnedsättning har rätt till ett fritt och självständigt liv utan diskriminering. Vi kommer att se över åtgärder för ett statligt huvudmannaskap inom ramen för LSS och integrera funktionsrättsperspektivet i fler samhällsområden"',
+  partyAffiliation: 'Moderaterna'
+})
+
+//
+CREATE (Anna:Ministers {
+  name: 'Anna Tenje',
+  title: 'Äldre- och socialförsäkringsminister',
+  birthyear: 1977,
+  motto: '"Det är hög tid att vi arbetar samlat kring äldrefrågorna för att ge äldre en värdig ålderdom med god livskvalitet. Dels ska vi värna om dem som arbetat ett helt arbetsliv genom att trygga deras ekonomi och behov av god omsorg. Dels ska vi ta vara på det höga värde som våra äldre har för hela samhället, motverka åldersdiskriminering och ta vara på den kunskap och erfarenhet som de bidrar med."',
+  partyAffiliation: 'Moderaterna'
+})
+
+
+CREATE (Jessika:Ministers {
+  name: 'Jessika Roswall', 
+  title: 'EU-minister', 
+  birthyea:1972, 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Ulf:Ministers {
+  name: 'Ulf Kristersson', 
+  title: 'Statsminister', 
+  birthyea:1963, 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (JohanP:Ministers {
+  name: 'Johan Pehrson', 
+  title: 'Arbetsmarknads- och integrationsminister', 
+  birthyea:1968, 
+  motto: 'Arbete är grunden för välståndet i Sverige och för individens egenmakt. Integrationen måste stärkas i Sverige. Fler behöver komma i arbete och utanförskapet ska minska. Arbetslinjen behöver stå i centrum. Fokus på arbete, språk och jämställdhet ger egenmakt till inte minst utrikes födda kvinnor', partyAffiliation: 'Liberalerna' 
+    })
+CREATE (Paulina:Ministers {
+  name: 'Paulina Brandberg', 
+  title: 'Jämställdhets- och biträdande arbetsmarknadsminister', 
+  birthyea:1983, 
+  motto: 'Vi växlar upp arbetet mot mäns våld mot kvinnor, annat våld i nära relationer och det hedersrelaterade våldet och förtrycket. Alla former av våld så som fysiskt, psykiskt, ekonomiskt och sexuellt ska upphöra. Det handlar om rätten att äga sitt liv och bestämma över sin kropp och sin ekonomi. Vi behöver också fokusera mer på en rättvis och jämställd hälsa och att alla kvinnor och män får rätt till en god arbetsmiljö', 
+  partyAffiliation: 'Liberalerna' 
+    })
+CREATE (Elisabeth:Ministers {
+  name: 'Elisabeth Svantesson', 
+  title: 'Jämställdhets- och biträdande arbetsmarknadsminister', 
+  birthyea:1983, 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Erik:Ministers {
+  name: 'Erik Slottner', 
+  title: 'Civilminister', 
+  birthyea:1980, 
+  motto: 'Kommuner och regioner står inför tuffa tider dels med ekonomisk oro dels med krig i vårt närområde. Mitt uppdrag är att verka för gott och fungerande samarbete mellan kommuner, regioner och stat så att alla nivåer ska kunna genomföra sina viktiga välfärdsuppdrag på bästa sätt. Som civilminister är mitt fokus också på en välfungerande digitalisering inom offentlig förvaltning för att förbättra servicen för medborgare och öka effektiviteten hos våra myndigheter', 
+  partyAffiliation: 'Kristdemokraterna' 
+    })
+CREATE (Niklas:Ministers {
+  name: 'Niklas Wykman', 
+  title: 'Finansmarknadsminister', 
+  birthyea:1981, 
+  motto: 'För att svensk ekonomi ska växa och hushållen få förbättringar som kommer alla till del behövs en ansvarsfull ekonomisk politik. Finansiell stabilitet är en hörnsten i detta. Sverige ska ha ett stabilt och effektivt finansiellt system. Att tryggheten ökar och Sveriges säkerhet stärks är centralt – därför är det viktigt att penningtvätt bekämpas, att vi stärker beredskapen mot cyberhot och att Sverige står rustat att kunna motverka och hantera ekonomiska störningar. Med det som grund skapar vi goda förutsättningar att leda Sverige mot högre sysselsättning, ökad trygghet och stark ekonomisk tillväxt.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Pål:Ministers {
+  name: 'Pål Jonson', 
+  title: 'Försvarsminister', 
+  birthyea:1972, 
+  motto: 'Försvaret av Sverige är en kärnuppgift för staten och grundläggande för vår demokrati och frihet. Ett starkare försvar, medlemskap i Nato och stöd till Ukraina stärker vår säkerhet i en orolig tid.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (CarlO:Ministers {
+  name: 'Carl-Oskar Bohlin', 
+  title: 'Minister för civilt försvar', 
+  birthyea:1986, 
+  motto: 'Försvaret av Sverige kräver ett starkt civilt försvar. Genom att bygga motståndskraft i hela samhället ökar Sveriges säkerhet i ett allt svårare säkerhetspolitiskt läge. Det civila försvaret ska vara starkt nog att bära det svenska samhället i sina grundläggande funktioner och samtidigt ha förmåga att bistå det militära försvaret i att lösa sina uppgifter.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Gunna:Ministers {
+  name: 'Gunnar Strömmer', 
+  title: 'Justitieminister', 
+  birthyea:1972, 
+  motto: 'Regeringen ska bedriva en offensiv kriminalpolitik för att få ordning på Sverige. Det grova våldet och den organiserade brottsligheten ska bekämpas. Samtidigt skiftar fokus från gärningsman till brottsoffer och samhällsskydd.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Maria:Ministers {
+  name: 'Maria Malmer Stenergard', 
+  title: 'Migrationsminister', 
+  birthyea:1981, 
+  motto: 'För att få ordning på integrationen måste vi minska invandringen. Med nya reformer ska regeringen driva igenom ett paradigmskifte inom svensk migrationspolitik.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Ebba:Ministers {
+  name: 'Ebba Busch', 
+  title: 'Energi- och näringsminister samt vice statsminister', 
+  birthyea:1987,
+  partyAffiliation: 'Kristdemokraterna' 
+    })
+CREATE (Romina:Ministers {
+  name: 'Romina Pourmokhtari', 
+  title: 'Klimat- och miljöminister', 
+  birthyea:1995,
+  partyAffiliation: 'Liberalerna' 
+    })
+CREATE (Parisa:Ministers {
+  name: 'Parisa Liljestrand', 
+  title: 'Kulturminister', 
+  birthyea:1983, 
+  motto: 'Jag vill vara en kulturminister för medborgarna, oavsett vem man är eller var man kommer ifrån. Jag är stolt över att företräda en regering som gjort det till sin uppgift att värna det svenska kulturarvet och skapa möjligheter för att det ska komma fler till del.', 
+  partyAffiliation: 'Moderaterna' 
+    })
+CREATE (Pete:Ministers {
+  name: 'Peter Kullgren', 
+  title: 'Landsbygdsminister', 
+  birthyea:1981, 
+  motto: 'Vi ska leverera goda förutsättningar att leva i hela landet, värna vårt hållbara skogsbruk och säkerställa konkurrenskraftiga villkor för det svenska jordbruket.', 
+  partyAffiliation: 'Kristdemokraterna' 
+    })
+CREATE (Andreas:Ministers {
+  name: 'Andreas Carlson', 
+  title: 'Infrastruktur- och bostadsminister', 
+  birthyea:1987, 
+  partyAffiliation: 'Kristdemokraterna' 
+    })
+
+CREATE (Mats:Ministers {
+  name: 'Mats Persson',
+  title: 'Utbildningsminister',
+  birthyea: 1980,
+  motto: 'Kunskap och bildning är grunden för samhällsutveckling och välstånd. Sverige ska utvecklas som kunskapsnation, med forskning och högre utbildning i världsklass.',
+  partyAffiliation: 'Liberalerna'
+})
+CREATE (Lotta:Ministers {
+  name: 'Lotta Edholm',
+  title: 'Skolminister',
+  birthyea: 1965,
+  motto: 'Skolan måste tillbaka till grunderna. Mycket kan bli bättre i skolan med mer ordning och färre experiment. Särskilt för de barn som behöver skolan mest.',
+  partyAffiliation: 'Liberalerna'
+})
+CREATE (Tobias:Ministers {
+  name: 'Tobias Billström',
+  title: 'Utrikesminister',
+  birthyea: 1973,
+  partyAffiliation: 'Moderaterna'
+})
+CREATE (JohanF:Ministers {
+  name: 'Johan Forssell',
+  title: 'Bistånds- och utrikeshandelsminister',
+  birthyea: 1979,
+  partyAffiliation: 'Moderaterna'
+})
+
+-----------------Create Departments  node-----------------------
+CREATE (Statsråd:Departments {
+  name:'Statsrådsberedningen', 
+  description:'Statsrådsberedningen har ansvar för att leda och samordna arbetet i Regeringskansliet.'
+    })
+CREATE (Arbetsmarknad:Departments {
+  name:'Arbetsmarknadsdepartementet', 
+  description:'Arbetsmarknadsdepartementet ansvarar för frågor och ärenden som rör arbetsmarknad, arbetsrätt och arbetsmiljö. Departementet ansvarar också för integrationsfrågor, arbetet mot utanförskap och arbetet för ökad jämställdhet mellan kvinnor och män. Dessutom ansvarar departementet för arbetet för mänskliga rättigheter på nationell nivå, att stärka hbtqi-personers rättigheter samt arbetet mot rasism och diskriminering.' })
+CREATE (Finans:Departments {
+  name:'Finansdepartementet',
+  description:'Finansdepartementet ansvarar för frågor som rör statens ekonomi. Det handlar om samordning av statens budget, prognoser och analyser, skattefrågor samt styrning och förvaltning av statens verksamhet. Dessutom ansvarar departementet för frågor som rör finansmarknad, kommuner och regioner, upphandling, bolag med statligt ägande, digitalisering och it samt konsumentlagstiftning.'
+    })
+CREATE (Försvars:Departments {
+  name:'Försvarsdepartementet', 
+  description:'Försvarsdepartementet ansvarar för frågor om Sveriges militära försvar, samordning av civilt försvar och samhällets krisberedskap samt skydd mot olyckor. Departementet planerar på strategisk nivå internationella insatser och säkerhetsfrämjande verksamhet och ger uppdrag till myndigheterna att genomföra samt följa upp dessa insatser.'
+    })
+CREATE (Justitie:Departments {
+  name:'Justitiedepartementet', 
+  description:'Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+    })
+CREATE (Klimat:Departments {
+  name:'Klimat- och näringslivsdepartementet', 
+  description:'Klimat- och näringslivsdepartementet har ansvar för frågor som rör klimat, miljö, energi, näringsliv och innovation. Departementet ansvarar även för strålsäkerhet, Agenda 2030 samt friluftsliv och arbetar med omställningen till cirkulär ekonomi.'
+    })
+CREATE (KulturDept:Departments {
+  name:'Kulturdepartementet', 
+  description:'ansvarar för frågor som rör kultur, demokrati, medier, de nationella minoriteterna och det samiska folkets språk och kultur.'
+    })
+CREATE (Landsbygds:Departments {
+  name:'Landsbygds- och infrastrukturdepartementent', 
+  description:'Landsbygds- och infrastrukturdepartementet ansvarar för frågor som rör landsbygd, livsmedel och areella näringar, regional utveckling, transporter och infrastruktur samt bostäder och samhällsplanering.'
+    })
+CREATE (Social:Departments {
+  name:'Socialdepartementet', 
+  description:'Socialdepartementet ansvarar för frågor som rör samhällets välfärd, så som folkhälsan, sjukvården och äldreomsorgen. Bland departementets ansvarsområden finns också socialförsäkringar för att människor ska vara ekonomiskt trygga när de är sjuka, äldre eller när barnen är små. Frågor om individ- och familjeomsorg, stöd till personer med funktionsnedsättning och äldreomsorg ingår. Dessutom arbetar departementet med rättigheter för personer med funktionsnedsättningar och med frågor om premiepensionssystemet. Departementet ansvarar även för frågor som rör idrott, ungdomspolitik, civilsamhället, trossamfund och begravningsväsendet.'
+    })
+CREATE (Utbildning:Departments {
+  name:'Utbildningsdepartementet', 
+  description:'Utbildningsdepartementet ansvarar för regeringens utbildnings- och forskningspolitik. Departementet arbetar med frågor som exempelvis handlar om skolresultat, lärarnas villkor och studiefinansiering.'
+    })
+CREATE (Utrikes:Departments {
+  name:'Utrikesdepartementet', 
+description:'UD ansvarar för Sveriges förbindelser med andra länder och internationella organisationer och för bistånds- och internationell handelspolitik. UD utgör tillsammans med cirka 100 utlandsmyndigheter utrikesförvaltningen.'
+  })
+-----------------Create Areas node-----------------------
+CREATE (Integration:Areas {
+  name: 'Integration', 
+  description: 'Integrationspolitiken bygger på såväl plikt som rätt – lika rättigheter, skyldigheter och möjligheter för alla oavsett etnisk och kulturell bakgrund. Målet nås främst genom generella åtgärder inom områden som arbetsmarknad, utbildning, folkhälsa, hälso- och sjukvård samt bostäder. För att skapa bättre förutsättningar för nyanlända invandrares etablering i arbets- och samhällslivet görs dessutom riktade satsningar inom till exempel språk, arbetsmarknad och utbildning. Vissa nyanlända har också möjlighet att delta i Arbetsförmedlingens etableringsprogram. Området omfattar även ersättning till kommuner och regioner för flyktingmottagande.'
+    })
+CREATE (Jämställdhet:Areas {
+  name: 'Jämställdhet', 
+  description: 'Jämställdhet handlar om att kvinnor och män ska ha samma makt att forma samhället och sina egna liv. Området omfattar bland annat frågor som makt, inflytande, ekonomi, hälsa, utbildning, arbete, könsrelaterat våld och hedersrelaterat våld och förtryck.'
+    })
+
+CREATE (Bolag:Areas {
+  name: 'Bolag med statligt ägande', 
+  description: 'Staten är en betydande bolagsägare i Sverige. I den statliga bolagsportföljen finns 43 hel- och delägda bolag, varav två är börsnoterade. Dessutom förvaltas två verksamhetsstiftelser. Tillsammans sysselsätter bolagen med statligt ägande cirka 134 000 personer. Det uppskattade sammanlagda värdet på den statliga bolagsportföljen uppgår till 850 miljarder kronor.'
+    })
+CREATE (Digitalisering:Areas {
+  name: 'Digitaliseringspolitik', 
+  description: 'Digitaliseringspolitiken handlar om att använda och främja de möjligheter som digitaliseringen för med sig för samhället: för individer, näringsliv, civilsamhälle och offentlig förvaltning. Området omfattar bland annat arbete med att digitalisera offentlig förvaltning med utgångspunkt i medborgarens behov. Syftet med digitaliseringen av offentlig sektor är att kunna erbjuda enklare, öppnare och effektivare service till alla, oavsett om användaren befinner sig i Sverige eller i utlandet. Digitaliseringspolitiken handlar också om att skapa goda förutsättningar för digital infrastruktur som till exempel bredband, digital post, digital identitet och 5G, och om att skapa goda förutsättningar för utveckling och användning av ny teknik så som data och artificiell intelligens. Arbete med att främja digital kompetens och digitalt ledarskap hör också till området.'
+    })
+CREATE (Ekonomisk:Areas {
+  name: 'Ekonomisk politik', 
+  description: 'Ekonomisk politik handlar om att få den svenska ekonomin att fungera effektivt, dämpa konjunktursvängningar i ekonomin samt fördela ekonomiska resurser mellan olika individer och över tid.'
+    })
+CREATE (Finansmarknad:Areas {
+  name: 'Finansmarknad', 
+  description: 'Finansmarknadsfrågor handlar om att bevaka och analysera hur det finansiella systemet fungerar, till exempel banktjänster, försäkringar och värdepapper. I fokus står stabiliteten i det finansiella systemet samt åtgärder för att stärka konsumentskyddet på finansmarknaden. Det finansiella systemet ska också bidra till en hållbar utveckling.'
+    })
+CREATE (Kommuner:Areas {
+  name: 'Kommuner och regioner', 
+  description: 'Den kommunala självstyrelsen och beskattningsrätten är inskriven i grundlagen och innebär en självständig och fri bestämmanderätt för kommuner och regioner. Kommuner och regioner styrs av folkvalda politiker i kommun- respektive regionfullmäktige. Staten reglerar och styr kommuners och regioners verksamhet genom lag, förordning och föreskrifter. Staten har också ett ansvar att kommuner och regioner har goda och likvärdiga förutsättningar att bedriva en effektiv välfärd med god kvalitet.'
+    })
+CREATE (Konsumentpolitik:Areas {
+  name: 'Konsumentpolitik', 
+  description: 'Målet för konsumentpolitiken är väl fungerande konsumentmarknader och en miljömässigt, socialt och ekonomiskt hållbar konsumtion. För detta krävs lagstiftning som ger ett högt konsumentskydd, en effektiv tvistlösning och ett stöd till konsumenter som är lättillgängligt och tillförlitligt. Ett högt konsumentskydd är viktigt även utanför Sveriges gränser, till exempel vid resor eller inköp via internet.'
+    })
+CREATE (Offentlig:Areas {
+  name: 'Offentlig upphandling', 
+  description: 'Offentlig upphandling ska vara effektiv, rättssäker och ta tillvara konkurrensen på marknaden. Den ska också främja innovativa lösningar och ha miljö- och sociala hänsyn i beaktande. Lagstiftningen om upphandling ska göra det lättare för varor och tjänster att röra sig fritt inom EU.'
+    })
+CREATE (Skatt:Areas {
+  name: 'Skatt och tull', 
+  description: 'Regeringen ansvarar för lagstiftning och myndighetsfrågor som rör skatter, tull och indrivning. Skattelagstiftningen ska bland annat stödja de ekonomisk-politiska målen, ge goda villkor för företagande och investeringar samt underlätta för medborgare och företagare att göra rätt för sig.'
+    })
+CREATE (Spelpolitik:Areas {
+  name: 'Spelpolitik', 
+  description: 'Området spelpolitik handlar om att förebygga spelberoende och att skapa en sund och säker spelmarknad där sociala skyddsintressen värnas genom att efterfrågan på spel tillgodoses under kontrollerade former.'
+    })
+CREATE (StatligF:Areas {
+  name: 'Statlig förvaltning', 
+  description: 'Statlig förvaltning handlar om att ge statliga myndigheter verktyg och förutsättningar för att kunna genomföra de beslut som regeringen och riksdagen har fattat. Området omfattar bland annat ledning, styrning och organisation i staten, utveckling av service och effektivitet, staten som arbetsgivare, regional samordning i länen, statens ansvar som arbetsgivare samt skötsel och förvaltning av statens fastigheter.'
+    })
+
+CREATE (CiviltF:Areas {
+  name: 'Civilt försvar', 
+  description: 'Civilt försvar och arbetet med detta, tar sin utgångspunkt i samhällets krisberedskap och syftar till att inför och under höjd beredskap samt under krig värna befolkningen, säkerställa de viktigaste samhällsfunktionerna samt bidra till Försvarsmaktens förmåga att möta ett väpnat angrepp.'
+    })
+CREATE (Krisberedskap:Areas {
+  name: 'Krisberedskap', 
+  description: 'Samhällets krisberedskap kan beskrivas som förmågan att förebygga, motstå och hantera krissituationer. Syftet med svensk krisberedskap är att värna befolkningens liv och hälsa, samhällets funktionalitet och förmågan att upprätthålla våra grundläggande värden som demokrati, rättssäkerhet och mänskliga fri- och rättigheter.'
+    })
+CREATE (MilitärtF:Areas {
+  name: 'Militärt försvar', 
+  description: 'Området hanterar det militära försvaret, samordningen med det civila försvaret och frågor rörande totalförsvarsplikt. Området inkluderar också försvars- och försvarsmaterielsamarbeten med andra länder.'
+    })
+
+CREATE (Folkrätt:Areas {
+  name: 'Folkrätt', 
+  description: 'Folkrätten består av regler och principer som reglerar hur stater och vissa andra internationella aktörer ska samarbeta och agera gentemot varandra. Folkrätten baseras främst på traktater (överenskommelser) och sedvanerätt. Folkrätten kräver bland annat respekt för FN-stadgan och dess regler om territoriell integritet och förbud mot våldsanvändning. Folkrätten innehåller också regler om ansvarsutkrävande för internationella brott som folkmord, brott mot mänskligheten och krigsförbrytelser. I folkrätten ingår bland annat mänskliga rättigheter, internationell humanitär rätt, internationell straffrätt och traktaträtt.'
+    })
+CREATE (Handelspolitik:Areas {
+  name: 'Handelspolitik och främjande', 
+  description: 'Den svenska handels- och främjandepolitiken syftar till att främja svenska ekonomiska intressen och bilden av Sverige utomlands, för att i sin tur underlätta export och utländska investeringar till Sverige samt möjliggöra ett ömsesidigt handelsutbyte med andra länder.'})
+CREATE (InternationelltU:Areas {
+  name: 'Internationellt utvecklingssamarbete', 
+  description: 'Sverige har en lång tradition av ett generöst och ambitiöst bistånd. Utvecklingssamarbetet handlar om att skapa förutsättningar för fattiga människor att förbättra sina levnadsvillkor. Det svenska utvecklingsbiståndet kanaliseras ofta genom internationella organisationer som FN och EU. Med humanitärt bistånd avses Sveriges insatser för att rädda liv, lindra nöd och upprätthålla mänsklig värdighet för nödlidande människor som drabbas av naturkatastrofer, väpnade konflikter eller andra katastrofliknande förhållanden.'})
+CREATE (NordiskaF:Areas {
+  name: 'Nordiska frågor', 
+  description: 'Det nordiska samarbetet bygger på de nordiska ländernas gemensamma värderingar och är ett av världens äldsta samarbeten. Norden ska bli världens mest hållbara och integrerade region år 2030. Det är visionen som antogs av de nordiska statsministrarna 2019 och som ska uppnås genom satsningar på ett grönt, konkurrenskraftigt och socialt hållbart Norden. Sverige ska arbeta för ett närmare och starkare nordiskt samarbete. De nordiska länderna står inför flera utmaningar som vi kan lösa bättre tillsammans än var och en för sig.'})
+CREATE (UtrikesP:Areas {
+  name: 'Utrikes- och säkerhetspolitik', 
+  description: 'Utrikespolitiken handlar om Sveriges förbindelser med och politik gentemot andra länder. Att förebygga risker och hot är en viktig del av säkerhetspolitiken som är en del av utrikespolitiken. Den svenska politiken förs i direkta förbindelser med andra länder men också genom exempelvis EU och FN. Samarbetet bygger på folkrätten, som består av alla internationella avtal och bestämmelser som reglerar hur stater och andra internationella aktörer ska samarbeta och hur de får och inte får agera gentemot varandra.'})
+
+CREATE (BarnU:Areas {
+  name: 'Barn- och ungdomsutbildning', 
+  description: 'Till barn– och ungdomsutbildningen hör förskola, fritidshem, den obligatoriska skolan samt gymnasieskolan. Elever ska utifrån sina olika förutsättningar och behov få utbildning så att de uppnår kunskapskraven och därmed får möjlighet att utvecklas så långt som möjligt.'})
+CREATE (Folkbildning:Areas {
+  name: 'Folkbildning', 
+  description: 'Till folkbildningen räknas folkhögskolor, studieförbund och studerandeorganisationer inom folkhögskolan. Inom folkbildningen finns även särskilda statsbidrag för viss tolkutbildning.'})
+CREATE (HF:Areas {
+  name: 'Högskola, forskning och rymd', 
+  description: 'Högre utbildning bidrar till bildning och enskilda individers utveckling, samhällsengagemang och kritiska tänkande. Utbildning av hög kvalitet är avgörande för att stärka Sveriges konkurrenskraft. Den behövs för välutbildad arbetskraft och skapar förutsättningar för forskning och ökad kunskap. Samhällsnyttan med rymdforskning och rymdverksamhet är stor. Rymdforskningen bidrar med viktig kunskap inom ett flertal samhälls- och forskningsområden.'})
+CREATE (Studiefinansiering:Areas {
+  name: 'Studiefinansiering', 
+  description: 'Det svenska studiestödet är ett av världens mest omfattande studiestödssystem. Det syftar till att möjliggöra för kvinnor och män att söka sig vidare till studier efter slutförd skolgång eller att senare i livet återuppta studier. Studiestödet i form av bidrag och lån är en del av utbildningspolitiken.'})
+CREATE (UtbildningV:Areas {
+  name: 'Utbildning för vuxna', 
+  description: 'Utbildning för vuxna sker till stora delar inom komvux och yrkeshögskolan. I komvux ingår utbildning på grundläggande nivå och gymnasial nivå, utbildning i svenska för invandrare (sfi) samt kommunal vuxenutbildning som särskild utbildning (tidigare särvux). Inom yrkeshögskolan finns eftergymnasial yrkesutbildning som svarar mot arbetslivets behov och som genomförs i nära samarbete med arbetslivet. Många vuxna studerar också på högskolan och inom folkbildningen.'})
+
+CREATE (Barnets:Areas {
+  name: 'Barnets rättigheter', 
+  description: 'Barnets rättigheter utgår från FN:s barnkonvention och handlar om att ta tillvara barns och ungas rättigheter och intressen i samhället. Området omfattar alla verksamheter där barn är berörda, till exempel utbildningspolitiken, migrationspolitiken, kulturpolitiken och socialtjänstpolitiken.'})
+CREATE (CivilaSI:Areas {
+  name: 'Civila samhället och idrott', 
+  description: 'Med det civila samhället avses en arena, skild från staten, marknaden och det enskilda hushållet, där människor organiserar sig och agerar tillsammans i gemensamma intressen. I området ingår nätverk, ideella föreningar, registrerade trossamfund med mera. Politiken omfattar bland annat möjligheter att bilda organisationer, att få statligt stöd och att göra människor delaktiga och bedriva verksamhet. Idrottspolitiken utgör en specifik del av politiken för det civila samhället.'})
+CREATE (Folkhälsa:Areas {
+  name: 'Folkhälsa', 
+  description: 'Folkhälsa handlar om de insatser som görs för att förebygga ohälsa och omfattar allt från breda insatser för att främja folkhälsan till specifika frågor som alkohol, tobak, spelberoende och skydd mot smittsamma sjukdomar'})
+CREATE (Funktionshinde:Areas {
+  name: 'Funktionshinder', 
+  description: 'Funktionshinderspolitiken utgår från FN:s konvention om rättigheter för personer med funktionsnedsättning. Politiken tar tillvara de rättigheter och intressen som personer med funktionsnedsättningar har i samhället. Flera områden omfattas av politiken, till exempel arbetsmarknadspolitiken eller utbildningspolitiken.'})
+CREATE (Sjukvård:Areas {
+  name: 'Sjukvård', 
+  description: 'Sjukvård handlar om de insatser som görs för att vårda dem som är sjuka och att utveckla vården. Vården ska vara jämlik, jämställd och tillgänglig och erbjudas utifrån behov på lika villkor.'})
+CREATE (Socialförsäkringa:Areas {
+  name: 'Socialförsäkringar', 
+  description: 'Socialförsäkringen handlar om att ge ekonomisk trygghet vid sjukdom, ålderdom och när barnen är små. Området omfattar sjukförsäkringen, pensionerna samt föräldraförsäkring och bidrag till föräldrar.'})
+CREATE (Socialtjänst:Areas {
+  name:'Socialtjänst', 
+  description: 'Socialtjänst handlar om samhällets stöd och hjälp till människor som är särskilt utsatta eller i svårigheter. Området omfattar individ- och familjeomsorg och stöd till personer med funktionsnedsättning.'})
+CREATE (Ungdomspolitik:Areas {
+  name: 'Ungdomspolitik', 
+  description: 'Ungdomspolitiken är sektorsövergripande och omfattar alla de beslut och åtgärder som påverkar villkoren för ungdomar inom en rad olika områden som arbete, boende, utbildning, hälsa, fritid, kultur och inflytande.'})
+CREATE (Äldreomsorg:Areas {
+  name: 'Äldreomsorg', 
+  description: 'Äldreomsorg handlar om de insatser som görs för att öka tryggheten och förbättra livskvalitén för de äldre.'})
+
+CREATE (BostäderS:Areas {
+  name: 'Bostäder och samhällsplanering', 
+  description: 'Bostäder och samhällsplanering handlar om att få en bostadsmarknad och finansiering av bostäder som fungerar väl. Det handlar också om hur man planerar och utformar miljöer och byggnader. Området omfattar bostadsmarknad, lantmäteri – det vill säga geografisk information, fastighetsinformation och fastighetsbildning – samt samhällsplanering, byggande och hållbar stadsutveckling.'})
+CREATE (RegionalU:Areas {
+  name: 'Regional utveckling', 
+  description: 'Den regionala utvecklingspolitiken handlar om åtgärder för att ta tillvara hela landets utvecklingskraft och sysselsättningsmöjligheter. Området omfattar frågor som regionala utvecklingsstrategier, regionala företagsstöd, stöd till kommersiell service och EU:s regionalfondsprogram.'})
+CREATE (TransporterI:Areas {
+  name: 'Transporter och infrastruktur', 
+  description: 'Transportpolitiken handlar om att säkerställa en samhällsekonomiskt effektiv och långsiktigt hållbar transportförsörjning för medborgarna och näringslivet i hela landet. I området ingår infrastruktur och samtliga trafikslag såsom spårtrafik, vägtrafik, sjöfart och luftfart samt transport- och infrastrukturforskning.'})
+CREATE (LLA:Areas{
+  name: 'Landsbygd, livsmedel och areella näringar', 
+  description: 'De areella eller gröna näringarna är viktiga basnäringar. De står för en betydande del av markanvändningen på landsbygden och har en unik roll som förvaltare av landskapets natur- och kulturvärden. Detta ger förutsättningar för att bedriva annan näringsverksamhet på landsbygden som till exempel verksamhet kopplat till upplevelser och rekreation.'})
+
+CREATE (Kultur:Areas {
+  name: 'Kultur', 
+  description: 'Kulturpolitiken handlar om att främja ett levande och oberoende kulturliv. Området omfattar kulturskaparnas villkor och människors tillgång till kultur i alla dess former samt hur kulturarvet ska bevaras, användas och utvecklas.'})
+CREATE (Medie:Areas {
+  name: 'Medier', 
+  description: 'Mediepolitiken ska ge förutsättningar för en fri åsiktsbildning, fritt utbyte av idéer och reella möjligheter att granska olika företeelser och verksamheter i samhället. För detta behövs en mångfald av medier av hög kvalitet. Mediepolitiken omfattar dagspress, radio och television samt skydd av barn och unga mot skadlig mediepåverkan.'})
+
+CREATE (Energi:Areas {
+  name: 'Energi', 
+  description: 'Energipolitiken omfattar frågor om tillförsel, distribution och användning av energi. Politiken bygger på att förena ekologisk hållbarhet, konkurrenskraft och försörjningstrygghet. I området ingår bland annat frågor om el-, värme- och gasmarknader, energieffektivisering och förnybar energi, såsom bio- och solenergi och vind- och vattenkraft.'})
+CREATE (Innovation:Areas {
+  name: 'Innovation', 
+  description: 'Innovation handlar om nya eller bättre lösningar som skapar värde för samhälle, företag och individer. Området omfattar planer och åtgärder för att utveckla och stärka innovations- och förnyelsekraften hos svenska företag inom många samhällsområden.'})
+CREATE (MiljöK:Areas {
+  name: 'Miljö och klimat', 
+  description: 'Sverige ska föra en ambitiös och effektiv klimatpolitik för att nå hela vägen till nettonoll utsläpp 2045. EU:s klimatlagstiftning Fit for 55 kommer också vara vägledande för svensk klimatpolitik. Sveriges miljöpolitik handlar om att skapa ett samhälle som är fritt från utsläpp och farliga gifter med hänsyn till både människor, djur och natur. Den handlar också om att skapa ett hållbart samhälle som är anpassat till ett förändrat klimat. Många klimat- och miljöfrågor är globala och därför sker en stor del av arbetet i samverkan med andra länder.'})
+CREATE (Näringspolitik:Areas {
+  name: 'Näringspolitik', 
+  description: 'Näringspolitiken handlar om att skapa förutsättningar för jobb och växande företag. I området ingår bland annat villkor för företagande och entreprenörskap, innovationskraft och en väl fungerande konkurrens. Området omfattar även riktade insatser till olika sektorer inom näringslivet, samt statsstödsfrågor samt geologi- och mineralfrågor.'})
+
+CREATE (Bekämpning:Areas {
+  name: 'Bekämpning av terrorism', 
+  description: 'Området beskriver hur Sverige, enskilt och tillsammans med andra stater arbetar för att möta hotet från terrorismen. Det omfattar också frågor om lagstiftning mot penningtvätt och finansiering av terrorism.'})
+CREATE (Familjerätt:Areas {
+  name: 'Familjerätt', 
+  description: 'Familjerätt omfattar frågor om äktenskap och samboende, förhållandet mellan föräldrar och barn samt arvsrätt. Det rymmer även regler om gode män och förvaltare.'})
+CREATE (Grundlaga:Areas {
+  name: 'Grundlagar och integritet',
+  description:'Området omfattar Sveriges fyra grundlagar vilka är regeringsformen, successionsordningen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen. I området ingår frågor som rör offentlighetsprincipen och den enskildes personliga integritet.'})
+CREATE (Migration:Areas {
+  name: 'Migration och asyl', 
+  description: 'Svensk migrationspolitik omfattar flykting- och invandringspolitik, återvändande, stöd för återvandring och kopplingen mellan migration och utveckling. Den inbegriper även samarbetet på internationell nivå kring dessa frågor. Området omfattar också frågor om svenskt medborgarskap.'})
+CREATE (Rättsväsendet:Areas {
+  name: 'Rättsväsendet', 
+  description: 'Rättsväsendet omfattar de institutioner som ansvarar för rättssäkerhet och rättstrygghet i Sverige, det vill säga polis, åklagare, domstol och kriminalvård. Det innebär att förebygga och bekämpa brottslig verksamhet, utreda brott, verkställa påföljder samt ge stöd till brottsoffer.'})
+CREATE (Bekämpning av terrorism:Areas {
+  name: 'Bekämpning av terrorism', 
+  description: 'Området beskriver hur Sverige, enskilt och tillsammans med andra stater arbetar för att möta hotet från terrorismen. Det omfattar också frågor om lagstiftning mot penningtvätt och finansiering av terrorism.'})
+CREATE (Demokrati och mänskliga rättigheter:Areas {
+  name: 'Demokrati och mänskliga rättigheter', 
+  description: 'De mänskliga rättigheterna är universella och gäller för alla och envar. De slår fast att alla människor, oavsett land, kultur och sammanhang, är födda fria och lika i värde och rättigheter. Demokratipolitiken omfattar bland annat allmänna val, åtgärder för att stärka och värna individens möjligheter till inflytande samt åtgärder för att främja och säkerställa respekten för de mänskliga rättigheterna. Mänskliga rättigheter, demokrati och rättsstatens principer ska även genomsyra hela den svenska utrikespolitiken.'})
+  CREATE (Bekämpning av terrorism:Areas {
+  name: 'Bekämpning av terrorism', 
+  description: 'Området beskriver hur Sverige, enskilt och tillsammans med andra stater arbetar för att möta hotet från terrorismen. Det omfattar också frågor om lagstiftning mot penningtvätt och finansiering av terrorism.'})
+  CREATE (Familjerätt:Areas {
+  name: 'Familjerätt', 
+  description: 'Området beskriver hur Sverige, enskilt och tillsammans med andra stater arbetar för att möta hotet från terrorismen. Det omfattar också frågor om lagstiftning mot penningtvätt och finansiering av terrorism.'})
+  CREATE (Grundlagar och integritet:Areas {
+  name: 'Grundlagar och integritet', 
+  description: 'Området omfattar Sveriges fyra grundlagar vilka är regeringsformen, successionsordningen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen. I området ingår frågor som rör offentlighetsprincipen och den enskildes personliga integritet.'})
+  CREATE (Migration och asyl:Areas {
+  name: 'Migration och asyl', 
+  description: 'Svensk migrationspolitik omfattar flykting- och invandringspolitik, återvändande, stöd för återvandring och kopplingen mellan migration och utveckling. Den inbegriper även samarbetet på internationell nivå kring dessa frågor. Området omfattar också frågor om svenskt medborgarskap.'})
+   CREATE (Rättsväsendet:Areas {
+  name:'Rättsväsendet', 
+  description: 'Rättsväsendet omfattar de institutioner som ansvarar för rättssäkerhet och rättstrygghet i Sverige, det vill säga polis, åklagare, domstol och kriminalvård. Det innebär att förebygga och bekämpa brottslig verksamhet, utreda brott, verkställa påföljder samt ge stöd till brottsoffer.'}) 
+
+
+MATCH (a:Areas)
+WHERE a.description = 'Området beskriver hur Sverige, enskilt och tillsammans med andra stater arbetar för att möta hotet från terrorismen. Det omfattar också frågor om lagstiftning mot penningtvätt och finansiering av terrorism.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+MATCH (a:Areas)
+WHERE a.description = 'De mänskliga rättigheterna är universella och gäller för alla och envar. De slår fast att alla människor, oavsett land, kultur och sammanhang, är födda fria och lika i värde och rättigheter. Demokratipolitiken omfattar bland annat allmänna val, åtgärder för att stärka och värna individens möjligheter till inflytande samt åtgärder för att främja och säkerställa respekten för de mänskliga rättigheterna. Mänskliga rättigheter, demokrati och rättsstatens principer ska även genomsyra hela den svenska utrikespolitiken.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+MATCH (a:Areas)
+WHERE a.description = 'Familjerätt omfattar frågor om äktenskap och samboende, förhållandet mellan föräldrar och barn samt arvsrätt. Det rymmer även regler om gode män och förvaltare.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+MATCH (a:Areas)
+WHERE a.description = 'Området omfattar Sveriges fyra grundlagar vilka är regeringsformen, successionsordningen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen. I området ingår frågor som rör offentlighetsprincipen och den enskildes personliga integritet.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+MATCH (a:Areas)
+WHERE a.description = 'Svensk migrationspolitik omfattar flykting- och invandringspolitik, återvändande, stöd för återvandring och kopplingen mellan migration och utveckling. Den inbegriper även samarbetet på internationell nivå kring dessa frågor. Området omfattar också frågor om svenskt medborgarskap.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+MATCH (a:Areas)
+WHERE a.description = 'Rättsväsendet omfattar de institutioner som ansvarar för rättssäkerhet och rättstrygghet i Sverige, det vill säga polis, åklagare, domstol och kriminalvård. Det innebär att förebygga och bekämpa brottslig verksamhet, utreda brott, verkställa påföljder samt ge stöd till brottsoffer.'
+MATCH (d:Departments)
+WHERE d.description ='Justitiedepartementet ansvarar för rättsväsendets myndigheter, bland andra polisen, åklagarna, domstolarna och kriminalvården. Departementet ansvarar också för migrationsfrågor. Lagstiftningen inom statsrätt och allmän förvaltningsrätt, civilrätt, processrätt, straffrätt, allmän ordning och säkerhet samt migrations- och asylrätt ligger inom departementets ansvarsområde.'
+MERGE (a)-[:IS_IN]->(d)
+
+
+MATCH (a:Areas)
+WHERE a.description = 'Området handlar om att antalet människor som lever i utanförskap ska minska, att parallella samhällsstrukturer ska bekämpas, att det egna ansvaret att bli en del av samhället ska uppmuntras samt att människors trygghet och livschanser ska öka.'
+MATCH (d:Departments)
+WHERE d.description ='Arbetsmarknadsdepartementet ansvarar för frågor och ärenden som rör arbetsmarknad, arbetsrätt och arbetsmiljö. Departementet ansvarar också för integrationsfrågor, arbetet mot utanförskap och arbetet för ökad jämställdhet mellan kvinnor och män. Dessutom ansvarar departementet för arbetet för mänskliga rättigheter på nationell nivå, att stärka hbtqi-personers rättigheter samt arbetet mot rasism och diskriminering.'
+MERGE (a)-[:IS_IN]->(d)
+
+-----------------Create party node-----------------------
+MERGE (p1:Party { name: 'Liberalerna' })
+MERGE (p2:Party { name: 'Moderaterna' })
+MERGE (p3:Party { name: 'Kristdemokraterna' })
+RETURN p1, p2, p
+    
+match (m:Ministers)
+where m.partyAffiliation ='Moderaterna'
+Match(p:Party)
+where p.name ='Moderaterna'
+MERGE (p)<-[:BELONGS_TO]-(m)
+RETURN m,p
+
+MATCH (m:Ministers)
+WHERE m.partyAffiliation = 'Liberalerna' 
+MATCH (p:Party) 
+WHERE p.name ='Liberalerna'
+MERGE (p)<-[:BELONGS_TO]-(m)
+Return p, m
+
+MATCH (m:Ministers)
+WHERE m.partyAffiliation='Kristdemokraterna'
+MATCH (p:Party)
+WHERE p.name ='Kristdemokraterna'
+MERGE  (p)<-[:BELONGS_TO]-(m)
+return p.m
+
+Del1:
+1-Find all ministers belonging to a specific party.
+match (m:Ministers)-[:BELONGS_TO]->(p:Party)
+where m.partyAffiliation ='Moderaterna' and  p.name='Moderaterna'
+RETURN p,m
+ 
+
+
+
+
+
+
+2.Find all ministers belonging to a particular department.
+
+MATCH (m:Ministers)-[:WORKS_IN]->(d:Departments)
+WHERE d.name ='Kulturdepartementet'
+RETURN m, d
+
+ 
+3.Find all the areas that a particular department is responsible for.
+MATCH (a:Areas)-[:IS_IN]->(d:Departments)
+WHERE d.name = 'Finans¬¬¬departementet'
+RETURN d, a
+
+ 
+    
+4.Find all the areas a particular minister is responsible for.
+MATCH (m:Ministers)-[:RESPONSIBLE_FOR]->(a:Areas)
+WHERE m.name ='Mats Persson'
+RETURN m, a 
+
+5.Find which department is responsible for a particular area.
+MATCH (a:Areas)-[:IS_IN]->(d:Departments)
+WHERE a.name =  'Demokrati och mänskliga rättigheter'
+RETURN d, a
+ 
+6.Find which minister is responsible for a particular area.
+MATCH (m:Ministers)-[:RESPONSIBLE_FOR]->(a:Areas)
+WHERE a.name ='Spelpolitik'
+RETURN m, a
+ 
+Decades
+•	Create a node for each decade (from the decade in which the oldest minister was born, to the decade in which the youngest politician was born.). Each decade should have a name (e.g. '1970s'), start year (e.g. 1970) and end year (e.g. 1979), as well as - if you want - a brief description of the decade.
+•	Establish relationships between ministers and decades. The relationship is directed ("born under").
+RETURN M,D
+MERGE (d:Decades {name:'1990s', startyear:1990, endyear:1999})
+MERGE (e:Decades {name:'1980s', startyear:1980, endyear:1989})
+MERGE (f:Decades {name:'1970s', startyear:1970, endyear:1979})
+MERGE (g:Decades {name:'1960s', startyear:1960, endyear:1969})
+RETURN d, e, f, g
+
+
+MATCH (m:Ministers)
+WHERE 1960<= m.birthyear <=1969
+MATCH (d:Decades)
+WHERE d.name = '1960s'
+MERGE (m)-[:BORN_UNDER]->(d)
+Return d, m
+
+MATCH (m:Ministers)
+WHERE 1970<= m.birthyear <=1979
+MATCH (d:Decades)
+WHERE d.name = '1970s'
+MERGE (m)-[:BORN_UNDER]->(d)
+Return d, m
+
+MATCH (m:Ministers)
+WHERE 1980<= m.birthyear <=1989
+MATCH (d:Decades)
+WHERE d.name = '1980s'
+MERGE (m)-[:BORN_UNDER]->(d)
+Return d, m
+
+MATCH (m:Ministers)
+WHERE 1990<= m.birthyear <=1999
+MATCH (d:Decades)
+WHERE d.name = '1990s'
+MERGE (m)-[:BORN_UNDER]->(d)
+Return d, m
+
+
+•	Draw up a list of the departments and the average age of each ministry's ministers. Arrange the list from lowest to highest average age.
+
+MATCH (m:Ministers)-[:WORKS_IN]->(d:Departments)
+WITH ROUND(avg(2024 - m.birthyear),2) AS AverageAge,d
+RETURN d.name AS Department,  AverageAge 
+ORDER BY AverageAge ASC
+ 
+•	 Can you show which politicians were born in a certain decade?
+
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE d.name='1990s'
+RETURN d,m
+
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE d.name='1980s'
+RETURN d,m
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE d.name='1970s'
+RETURN d,m
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE d.name='1960s'
+RETURN d,m
+ 
+•	In which decades were most of the L ministers born? Most of the KD ministers? Most of the M ministers.
+
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE m.partyAffiliation = 'Liberalerna'
+RETURN d.name AS Decade, COUNT(*) AS MinisterCount,m.partyAffiliation As party
+ORDER BY MinisterCount DESC
+ 
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE m.partyAffiliation = 'Kristdemokraterna'
+RETURN d.name AS Decade, COUNT(*) AS MinisterCount,m.partyAffiliation As party
+ORDER BY MinisterCount DESC
+
+ 
+MATCH (m:Ministers)-[:BORN_UNDER]->(d:Decades)
+WHERE m.partyAffiliation = 'Moderaterna'
+RETURN d.name AS Decade, COUNT(*) AS MinisterCount,m.partyAffiliation As party
+ORDER BY MinisterCount DESC
+
+ 
+
+
+The government parties and the left-right scale
+•	If you haven't done this already (e.g. if you only have parties as labels or properties of ministers) create a node for each governing party (with party name and party abbreviation as properties).
+o	Create relations between the parties "politically closest" so that L and KD are bound together and KD and M are tied together. This type of relationship is not targeted. (Although many people consider the left-right scale in politics to be a blunt measure, for the parties in government, they are usually arranged from left to right as follows: L - KD - M.)
+MATCH (p:Party)
+WHERE p.name= 'Moderaterna'
+SET p.partyAbbreviation = 'M'
+RETURN p
+
+MATCH (n:Party )
+Where n.name= 'Liberalerna'
+SET n.partyAbbreviation = 'L'
+RETURN n
+
+MATCH (p1:Party)
+where p1=name: 'Kristdemokraterna'
+SET p1.partyAbbreviation = 'KD' 
+RETURN p1
+
+MATCH (p:Party)
+WHERE p.partyAbbreviation = 'M'
+MATCH (s:Party)
+WHERE s.partyAbbreviation = 'KD'
+MERGE (p)-[:POLITICALLY_CLOSEST]-(s)
+RETURN p,s
+MATCH (p:Party)
+WHERE p.partyAbbreviation = 'L'
+MATCH (s:Party)
+WHERE s.partyAbbreviation = 'KD'
+MERGE (p)-[:POLITICALLY_CLOSEST]-(s)
+RETURN p,s
+
+MATCH (p:Party)
+WHERE p.partyAbbreviation = 'L'
+MATCH (r:Party)
+WHERE r.partyAbbreviation = 'KD'
+MATCH (s:Party)
+WHERE s.partyAbbreviation = 'M'
+MATCH (p)-[:POLITICALLY_CLOSEST]-(r)-[:POLITICALLY_CLOSEST]-(s)
+RETURN p,r,s
+
+ 
+
+•	How to find/display:
+o	All ministers within a given party.
+
+match (m:Ministers)-[:BELONGS_TO]->(p:Party)
+where p.name='Kristdemokraterna'
+return m,p
+ 
+match (m:Ministers)-[:BELONGS_TO]->(p:Party)
+where p.name='Liberalerna'
+return m,p
+
+
+o	The distance between different batches (0 to 2).
+  MATCH path = (p1:Party)-[:POLITICALLY_CLOSEST*0..4]->(p2:Party)
+RETURN p1.name, p2.name, length(path)
+
+ 
+o	Can you also list the political distance between different ministers based on the distance between parties? How?
+
+
+MATCH path = (m1:Ministers) - [:BELONGS_TO] ->(p1:Party)-[:POLITICALLY_CLOSEST*0..4]->(p2:Party)<-[:BELONGS_TO] -(m2:Ministers)
+RETURN m1.name, p1.name, m2.name, p2.name, length(path)-2  as politicalDistance
+
+ 
+ 
+
+•	Which decades are least/most similar to each other (culturally? politically?). Would it have been possible to create relationships along the lines of "most similar" between decades?
+o	Går det att ordna departmenten på vänster-högerskalan utifrån vilka partier deras ministrar är med i?
+MATCH (p:Party)<-[:BELONGS_TO]-(m:Ministers)-[:WORKS_IN]->(d:Departments)
+WITH d.name AS department,
+     CASE p.name
+         WHEN 'Liberalerna' THEN -1 // Vänsterorienterat
+         WHEN 'Kristdemokraterna' THEN 0 // Mittorienterat
+         WHEN 'Moderaterna' THEN 1 // Högerorienterat
+         ELSE 0
+     END AS partyOrientation
+RETURN department, SUM(partyOrientation), COUNT(partyOrientation), toFloat(SUM(partyOrientation)) / toFloat(COUNT(partyOrientation)) AS Scale,
+       CASE
+           WHEN SUM(partyOrientation) > 0 THEN "Högrorienterat"
+           WHEN SUM(partyOrientation) < 0 THEN "Vänsterorienterat"
+           ELSE "Neutral"
+       END AS departmentOrientation;
+ 
+
